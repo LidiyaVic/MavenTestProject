@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5177fed8-bbbe-46be-b127-d04c736fa4b3" name="Changes" comment="add new tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+    <list default="true" id="5177fed8-bbbe-46be-b127-d04c736fa4b3" name="Changes" comment="add new homeTask">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LoginTest.loginIsSuccessful">
+  <component name="RunManager">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenTestProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -143,8 +143,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.loginIsSuccessful" />
         <item itemvalue="JUnit.LoginTest.loginIsNotSuccessful" />
+        <item itemvalue="JUnit.LoginTest.loginIsSuccessful" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.eightComponents" />
         <item itemvalue="JUnit.UserTest.checkLastNameWithFirstCharacterNull" />
@@ -181,12 +181,20 @@
       <option name="project" value="LOCAL" />
       <updated>1688589735291</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new homeTask">
+      <created>1688760205655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688760205655</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new repo" />
     <MESSAGE value="add new tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new tests" />
+    <MESSAGE value="add new homeTask" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new homeTask" />
   </component>
 </project>

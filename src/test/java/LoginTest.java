@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -7,16 +8,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginTest {
+    WebDriver driver = new ChromeDriver();
 
     @BeforeEach
-    public void setup() {
-        System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
-        System.setProperty("webdriver.chrome.verboseLogging", "true");
+    public void openLoginPage() {
+        driver.get("https://the-internet.herokuapp.com/login");
     }
 
     @Test
     public void loginIsSuccessful() {
-        WebDriver driver = new ChromeDriver();
         WebElement usernameField = driver.findElement(By.id("username"));
         usernameField.sendKeys("tomsmith");
         WebElement passwordField = driver.findElement(By.id("password"));
@@ -25,11 +25,9 @@ public class LoginTest {
         loginButton.click();
         WebElement successMessage = driver.findElement(By.cssSelector(".flash.success"));
         Assertions.assertTrue(successMessage.isDisplayed());
-        driver.quit();
     }
     @Test
     public void loginIsNotSuccessful() {
-        WebDriver driver = new ChromeDriver();
         WebElement usernameField = driver.findElement(By.id("username"));
         usernameField.sendKeys("Lidiia");
         WebElement passwordField = driver.findElement(By.id("password"));
@@ -38,7 +36,11 @@ public class LoginTest {
         loginButton.click();
         WebElement successMessage = driver.findElement(By.cssSelector(".flash.error"));
         Assertions.assertTrue(successMessage.isDisplayed());
-        driver.quit();
+    }
+
+    @AfterEach
+    public void closePage() {
+        driver.close();
     }
 }
 
