@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5177fed8-bbbe-46be-b127-d04c736fa4b3" name="Changes" comment="add new tests">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="5177fed8-bbbe-46be-b127-d04c736fa4b3" name="Changes" comment="add new homeTask">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,16 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/4.10.0/selenium-chrome-driver-4.10.0-sources.jar!/org/openqa/selenium/chrome/AddHasCasting.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2SAApB0ZblTCvUyDhj7MM8IJ2RE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,25 +53,45 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="UserTest.calculateAverageAgeEmptyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenTestProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserTest" />
-      <option name="METHOD_NAME" value="calculateAverageAgeEmptyListTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.eightComponents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="eightComponents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.checkLastNameWithFirstCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginIsNotSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenTestProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserTest" />
-      <option name="METHOD_NAME" value="checkLastNameWithFirstCharacter" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="loginIsNotSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginIsSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="loginIsSuccessful" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,26 +102,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserTest" />
       <option name="METHOD_NAME" value="checkLastNameWithFirstCharacterNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.sortUsersByAgeNonEmptyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenTestProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserTest" />
-      <option name="METHOD_NAME" value="sortUsersByAgeNonEmptyListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.sortUsersByAgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenTestProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserTest" />
-      <option name="METHOD_NAME" value="sortUsersByAgeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,20 +134,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserTest.calculateAverageAgeEmptyListTest" />
-      <item itemvalue="JUnit.UserTest.checkLastNameWithFirstCharacter" />
+      <item itemvalue="JUnit.LoginTest" />
+      <item itemvalue="JUnit.LoginTest.eightComponents" />
+      <item itemvalue="JUnit.LoginTest.loginIsNotSuccessful" />
+      <item itemvalue="JUnit.LoginTest.loginIsSuccessful" />
       <item itemvalue="JUnit.UserTest.checkLastNameWithFirstCharacterNull" />
-      <item itemvalue="JUnit.UserTest.sortUsersByAgeNonEmptyListTest" />
-      <item itemvalue="JUnit.UserTest.sortUsersByAgeTest" />
       <item itemvalue="Maven.MavenTestProject=cleanAndTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest.loginIsNotSuccessful" />
+        <item itemvalue="JUnit.LoginTest.loginIsSuccessful" />
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.eightComponents" />
         <item itemvalue="JUnit.UserTest.checkLastNameWithFirstCharacterNull" />
-        <item itemvalue="JUnit.UserTest.checkLastNameWithFirstCharacter" />
-        <item itemvalue="JUnit.UserTest.calculateAverageAgeEmptyListTest" />
-        <item itemvalue="JUnit.UserTest.sortUsersByAgeNonEmptyListTest" />
-        <item itemvalue="JUnit.UserTest.sortUsersByAgeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,12 +181,20 @@
       <option name="project" value="LOCAL" />
       <updated>1688589735291</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new homeTask">
+      <created>1688760205655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688760205655</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new repo" />
     <MESSAGE value="add new tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new tests" />
+    <MESSAGE value="add new homeTask" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new homeTask" />
   </component>
 </project>
